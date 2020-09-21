@@ -47,36 +47,67 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.log{ 
+    width: 100px;
+}
+header{
+    background-color: aquamarine;
+}
 .head{
+    width: 1200;
+    padding: 20px;
+    margin: 0 32px;
+    
+}
+.log, .nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav{
+    width: 900px;
+    text-align: right;
    
-    background-color: darkcyan;
-    height: 200px;
+    font-size: 16px;
+    margin-left: 16px;
+}
+.nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 24px;
+    padding: 20px;
+    margin-top: 20px;
+}
+p{
+    padding: 20px ;
+}
+.article{
+    width: 400px;
+    line-height: 1cm;
+
+    
+}
+article, .body-img{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+.body-img img{
+    width: 600px;
+    margin-left: 50px;
+    
+}
+.footer{
+   height: 200px;
+    background-color: cadetblue;
     padding: 50px;
     text-align: center;
-}
-.h1{
-    font-size: 30px;
-    padding: 20px;
-    display: inline;
-}
-a{
-    padding: 20px;
-    display: inline-block;
-}
-.body{
-    padding: 50px;
-    width: 500px;
-    height: 500px;
-    background-color: darkgoldenrod;
-    text-align: center;
     box-sizing: border-box;
-    display: inline-block;
+    
 }
-.image{
-    height: 500px;
-    width: 500px;
-    background-color: darkgreen;
-    text-align: center;
-    display: inline-block;
-    box-sizing: border-box;
+.footer a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 50px;
 }
